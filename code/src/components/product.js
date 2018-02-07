@@ -9,15 +9,16 @@ class Products extends React.Component {
 
             <div className="box-hover">
                 <div className="description">
+                  <div className="heading-description">{this.props.name}
+                  </div>
                   <p>{this.props.description}</p>
                 </div>
-
 
               <div className="heading">{this.props.name}
               </div>
 
               <div className="imagecontainer">
-              <img src={this.props.image} />
+              <img src={this.props.image} alt="produkt-bild"/>
               </div>
 
               <div className="list">
